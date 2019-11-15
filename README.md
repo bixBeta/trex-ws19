@@ -30,3 +30,11 @@ The last `.` in the command means current working directory in bash.
 
 
 ### Download Fastq Files 
+The first step is to download all of the fastq files into your current working dir. 
+Since each individual will only be using a subset of fastq files, we will need to edit the script first before we can run it. 
+To edit the download script, type `nano download.fastqs.sh`<br>
+
+Use the down or up arrow keys to position the cursor in the begining of each line. 
+Hit `Ctrl + k` to delete the lines contatining the sample names that are not assigned to you. 
+
+Once done, hit `Ctrl + x` and type `y` and hit return. 

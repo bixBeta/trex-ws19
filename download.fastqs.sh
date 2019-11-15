@@ -1,0 +1,21 @@
+#!/bin/bash
+wget -q -c -O 11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1117794451&refid=701419"
+wget -q -c -O 11317_10135_109977_HFHNGBGXC_1100-W4-4-A549-0hr_CCGTCC_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=2116895018&refid=701420"
+wget -q -c -O 11317_10135_109978_HFHNGBGXC_1100-W7-7-A549-0hr_CAACTA_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=2048145578&refid=701421"
+wget -q -c -O 11317_10135_109979_HFHNGBGXC_1100-W14-14-A549-6hr_CACGAT_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1979396138&refid=701422"
+wget -q -c -O 11317_10135_109980_HFHNGBGXC_1100-W15-15-A549-6hr_CACTCA_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1074425665&refid=701423"
+wget -q -c -O 11317_10135_109981_HFHNGBGXC_1100-W17-17-A549-6hr_CATGGC_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1455198182&refid=701424"
+wget -q -c -O 11317_10135_109982_HFHNGBGXC_1100-W26-26-A549-24hr_TACAGC_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1386448742&refid=701425"
+wget -q -c -O 11317_10135_109983_HFHNGBGXC_1100-W27-27-A549-24hr_TATAAT_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=793570831&refid=701426"
+wget -q -c -O 11317_10135_109984_HFHNGBGXC_1100-W30-30-A549-24hr_TCGAAG_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=343979389&refid=701427"
+wget -q -c -O 11317_10135_109985_HFHNGBGXC_1100-W37-37-293T-0hr_ATCACG_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=756128604&refid=701428"
+wget -q -c -O 11317_10135_109986_HFHNGBGXC_1100-W40-40-293T-0hr_ACTTGA_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1411690426&refid=701429"
+wget -q -c -O 11317_10135_109987_HFHNGBGXC_1100-W42-42-293T-0hr_AGTTCC_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1205511591&refid=701430"
+wget -q -c -O 11317_10135_109988_HFHNGBGXC_1100-W49-49-293T-6hr_GTAGAG_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=506650468&refid=701431"
+wget -q -c -O 11317_10135_109989_HFHNGBGXC_1100-W53-53-293T-6hr_GTTTCG_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=437901028&refid=701432"
+wget -q -c -O 11317_10135_109990_HFHNGBGXC_1100-W54-54-293T-6hr_GAGTGG_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=163042238&refid=701433"
+wget -q -c -O 11317_10135_109991_HFHNGBGXC_1100-W61-61-293T-24hr_ATGTCA_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=749924105&refid=701434"
+wget -q -c -O 11317_10135_109992_HFHNGBGXC_1100-W62-62-293T-24hr_ACTGAT_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=1193450018&refid=701435"
+wget -q -c -O 11317_10135_109993_HFHNGBGXC_1100-W64-64-293T-24hr_ATTCCT_R1.fastq.gz "http://cbsuapps.tc.cornell.edu/Sequencing/showseqfile.aspx?mode=http&cntrl=262959921&refid=701436"
+
+

@@ -11,7 +11,8 @@ TREx Analysis Workshop Source Codes and Tutorials.
 ```git clone https://github.com/bixBeta/trex-ws19.git``` <br>
 This will download a folder named trex-ws19 which contains all of the scripts that  will be used throughout the workshop.<br>
 
-### Downlaod Fastq Files 
+### Download Fastq Files 
+
 In your parent workdir i.e. `/workdir/NetId`, create a new folder named `fastqs` by typing ` mkdir fastqs` and hitting return.
 
 Change your directory to `fastqs` folder  by typing `cd fastqs` and hitting return. <br>
@@ -20,5 +21,7 @@ At any point, feel free to use the `pwd` command to check the current path of yo
 
 To navigate to a child folder, simply type `cd` followed by the name of the folder. <br>
 
-To navigate to the parent folder type `cd ..` `..` has a special meaning in bash and this will tell the interpreter that the user is refering to a parent folder. 
-```bash download.fastqs.sh```
+To navigate to the parent folder type `cd ..` <br>
+`..` has a special meaning in bash and this will tell the interpreter that the user is refering to a parent folder. <br>
+
+Copy the download script from the cloned github repository into your current directory. 

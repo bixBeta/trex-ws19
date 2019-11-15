@@ -17,10 +17,10 @@ This will download a folder named trex-ws19 which contains all of the scripts th
 
 6. At any point, feel free to use the `pwd` command to check the current path of your directory. Use the `cd` command to navigate into a child folder or a parent folder. <br>
 
-To navigate to a child folder, simply type `cd` followed by the name of the folder. <br>
-
-To navigate to the parent folder type `cd ..` <br>
-`..` has a special meaning in bash and this will tell the interpreter that the user is refering to a parent folder. <br>
+ > Note:
+ > To navigate to a child folder, simply type `cd` followed by the name of the folder. <br>
+ > To navigate to the parent folder type `cd ..` <br>
+ > `..` has a special meaning in bash and this will tell the interpreter that the user is refering to a parent folder. <br>
 
 7. Copy all bash scripts from the cloned github repository into your current directory i.e. `/workdir/NetId/fastqs`
 by using the following command: <br>

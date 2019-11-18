@@ -1,6 +1,21 @@
 ## trex-ws19
 TREx Analysis Workshop Source Codes and Tutorials. 
 
+    └── workdir                        
+        └── genome
+        └── shared_data
+            ├── fastQC_all_Samples
+            └── STAR_all_Samples
+                ├── STAR.COUNTS
+                └── star.multiqc.report.html         
+        └── netid            
+            ├── fastqs  
+            ├── fastQC
+            ├── trimmed_fastqs
+            └── STAR     
+
+#### Please use the Basic Linux Commands CheatSheet for common commands and their required syntax.  
+
 1. Create a new directory inside of workdir on your workstation using the following command: <br>
 ``` mkdir /workdir/NetId``` (replace the NetId with your cornell net id) <br>
 

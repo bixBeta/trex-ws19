@@ -73,7 +73,17 @@ Once finished, repeat the same command for sample2. <br>
 `cp /workdir/netId/trex-ws19/cutadapt.sh .` <br>
 
 2. Execute the script using the following command:<br>
-Type ` bash cutadapt.sh ` and hit return. 
+Type ` bash cutadapt.sh ` and hit return. <br>
 
-3. The script is designed to process both samples at once. Once finished, the final outputs will be written to the `trimmed_fastqs` folder. 
+3. The script is designed to process both samples sequentially. Once finished, the final outputs will be written to the `trimmed_fastqs` folder. <br> 
 
+
+#### Run STAR alignment:
+
+1. Navigate to the `trimmed_fastqs` folder. <br> 
+
+2. Copy the star alignment script from the git cloned folder to current directory using the following command:<br>
+` cp /workdir/netId/trex-ws19/star.sh .` 
+
+3. To execute the star script use the following syntax:<br>
+` bash star.sh `

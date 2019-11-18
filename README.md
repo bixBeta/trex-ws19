@@ -60,4 +60,9 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 
 #### Run FASTQC:
 
-1. In our
+1. In our fastqs folder, we will run the following command to run the fastqc program. <br>
+
+2. On the command line prompt type `/programs/bin/fastqc/fastqc -o /workdir/netId/fastQC sample1.fastq.gz` 
+Once finished, repeat the same command for sample2. <br>
+
+3. 

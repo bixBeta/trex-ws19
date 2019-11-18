@@ -72,3 +72,8 @@ Once finished, repeat the same command for sample2. <br>
 1. In the fastqs folder, copy the cutadapt script from the github cloned folder using the following command:<br>
 `cp /workdir/netId/trex-ws19/cutadapt.sh .` <br>
 
+2. Execute the script using the following command:<br>
+Type ` bash cutadapt.sh ` and hit return. 
+
+3. The script is designed to process both samples at once. Once finished, the final outputs will be written to the `trimmed_fastqs` folder. 
+

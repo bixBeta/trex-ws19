@@ -5,6 +5,10 @@ for i in *R1.fastq.gz
 
          cutadapt -m 50 --nextseq-trim=20 -a AGATCGGAAGAGCACACGTCTGAACTCCAGTC \
          --match-read-wildcards \
-         -o $(basename $i .fastq.gz)_trimAdQual20.fastq.gz $i > $(basename $i .fastq.gz)_trimAdQual20.out
+         -o $(basename $i .fastq.gz)_trimmed.fastq.gz $i > $(basename $i .fastq.gz)_trimmed.out
           
 done
+
+
+mv *_trimmed.fastq.gz *_trimmed.out ../trimmed_fastqs
+

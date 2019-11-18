@@ -1,5 +1,6 @@
 ## trex-ws19
-TREx Analysis Workshop Source Codes and Tutorials. 
+TREx Analysis Workshop Source Codes and Tutorials. <br>
+The directory structure that we will follow for this tutorial is as follows:
 
     └── workdir                        
         └── genome
@@ -14,10 +15,17 @@ TREx Analysis Workshop Source Codes and Tutorials.
             ├── trimmed_fastqs
             └── STAR     
 
-#### Please use the Basic Linux Commands CheatSheet for common commands and their required syntax.  
+We will begin by practicing some of the basic Linux/BASH commands. <br> Please use the `Basic Linux Commands CheatSheet` for  referencing command names and their appropriate syntax.  
 
-1. Create a new directory inside of workdir on your workstation using the following command: <br>
+1. Whenever we login to Cornell's BioHPC server, we will always first land on the storage network. We can use the `pwd` command to see what is our current path, and use `ls` to list any files and or directories that already exist in this path. 
+For most users, the directory structure will be: `/home/netID` when they login. <br>
+
+2. All calculations must be done on the workstation's workdir. We will change our directories using the `cd` command to  navigate the the `/workdir`. On the command line type `cd /workdir` and hit return. <br>
+
+2. Create a new directory inside of workdir on your workstation using the following command: <br>
 ``` mkdir /workdir/NetId``` (replace the NetId with your cornell net id) <br>
+
+
 
 2. Change your path to the newly created directory by using the following command:<br>
 ``` cd /workdir/NetId ``` (replace the NetId with your cornell net id) <br>

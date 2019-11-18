@@ -54,34 +54,10 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 4. We will now use the `cp` command to copy the appropriate fastq files that are assigned to each user. <br>
 
 5. Use the following command to download the fastq files: `cp /workdir/shared_data/sample_name.fastq.gz .`
-(Replace sample_name with the names that are assigned to you, do not forget the `.` at the end) 
+(Replace sample_name with the names that are assigned to you, do not forget the `.` at the end) <br>
 
-6. The names of these files are rather long, and we will now use the `mv` command to rename these files. Example, if your sample name is `11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz`, we will use the following scheme to rename it: `mv 11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz W3-A549-0hr.fastq.gz`
+6. The names of these files are rather long, and we will now use the `mv` command to rename these files. Example, if your sample name is `11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz`, we will use the following scheme to rename it: `mv 11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz W3-A549-0hr.fastq.gz` <br>
 
+#### Run FASTQC:
 
-
-
-
-
-
-
-
-
-
-
-6. Copy all bash scripts from the cloned github repository into your current directory i.e. `/workdir/NetId/fastqs`
-by using the following command: <br>
-`cp /workdir/netID/trex-ws19/*.sh .`<br>
-`*.sh` means all files ending with .sh in bash <br>
-The last `.` in the command means current working directory in bash. 
-
-
-### Download Fastq Files 
-The first step is to download all of the fastq files into your current working dir. 
-Since each individual will only be using a subset of fastq files, we will need to edit the script first before we can run it. 
-To edit the download script, type `nano download.fastqs.sh`<br>
-
-Use the down or up arrow keys to position the cursor in the begining of each line. 
-Hit `Ctrl + k` to delete the lines contatining the sample names that are not assigned to you. 
-
-Once done, hit `Ctrl + x` and type `y` and hit return. 
+1. In our

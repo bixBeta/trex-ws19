@@ -27,7 +27,7 @@ For most users, the directory structure will be: `/home/netID` when they login. 
 3. Create a new directory inside of workdir on your workstation using the following command: <br>
 ``` mkdir NetId``` (replace the NetId with your cornell net id) <br>
 
-4. Change your path to the newly created directory by using the following command: <br>
+4. Change your path to the newly created directory using the following command: <br>
 ``` cd NetId ``` (replace the NetId with your cornell net id) and create the following new directories by typing: <br>
 ``` mkdir fastqs fastQC trimmed_fastqs ``` (Note you may specify multiple directories with space in between them to `mkdir` command) <br>
 
@@ -65,4 +65,10 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 2. On the command line prompt type `/programs/bin/fastqc/fastqc -o /workdir/netId/fastQC sample1.fastq.gz` 
 Once finished, repeat the same command for sample2. <br>
 
-3. 
+3. The fastqc outputs are stored in the `/workdir/netId/fastQC` folder. Use filezilla to download the .html reports and view them in the browser on your computer. 
+
+#### Run Cutadapt:
+
+1. In the fastqs folder, copy the cutadapt script from the github cloned folder using the following command:<br>
+`cp /workdir/netId/trex-ws19/cutadapt.sh .` <br>
+

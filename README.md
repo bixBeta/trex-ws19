@@ -53,8 +53,8 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 
 4. We will now use the `cp` command to copy the appropriate fastq files that are assigned to each user. <br>
 
-5. Use the following command to download the fastq files: `cp /workdir/shared_data/sample_name.fastq.gz .`
-(Replace sample_name with the name that is assigned to you, do not forget the `.` at the end, do this twice for both files) <br>
+5. Use the following command to download the fastq files: `cp /workdir/shared_data/raw_file_name.fastq.gz .`
+(Replace raw_file_name.fastq.gz with the name that is assigned to you, do not forget the `.` at the end, do this twice for both files) <br>
 
 6. The names of these files are rather long, and we will now use the `mv` command to rename these files. Example, if your sample name is `11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz`, we will use the following scheme to rename it: `mv 11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz W3-A549-0hr.fastq.gz` <br>
 
@@ -62,7 +62,7 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 
 1. In our fastqs folder, we will run the following command to run the fastqc program. <br>
 
-2. On the command line prompt type `/programs/bin/fastqc/fastqc -o /workdir/netId/fastQC sample1.fastq.gz` 
+2. On the command line prompt type `/programs/bin/fastqc/fastqc -o /workdir/netId/fastQC raw_file_name1.fastq.gz` 
 Once finished, repeat the same command for sample2. <br>
 
 3. The fastqc outputs are stored in the `/workdir/netId/fastQC` folder. Use filezilla to download the .html reports and view them in the browser on your computer. 

@@ -56,7 +56,8 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 5. Use the following command to download the fastq files: `cp /workdir/shared_data/raw_file_name.fastq.gz .`
 (Replace raw_file_name.fastq.gz with the name that is assigned to you, do not forget the `.` at the end, do this twice for both files) <br>
 
-6. The names of these files are rather long, and we will now use the `mv` command to rename these files. Example, if your sample name is `11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz`, we will use the following scheme to rename it: `mv 11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz W3-A549-0hr.fastq.gz` <br>
+6. The names of these files are rather long, and we will now use the `mv` command to rename these files. Example, if your sample name is `11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz`, we will use the following scheme to rename it: <br> 
+`mv 11317_10135_109976_HFHNGBGXC_1100-W3-3-A549-0hr_CTTGTA_R1.fastq.gz W3-A549-0hr.fastq.gz` <br>
 
 #### Run FASTQC:
 

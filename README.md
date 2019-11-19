@@ -64,7 +64,7 @@ This will download a folder named trex-ws19 which contains all of the shell scri
 
 1. In our fastqs folder, we will run the following command to run the fastqc program. <br>
 
-2. On the command line prompt type `fastqc -o /workdir/netId/fastQC raw_file_name1.fastq.gz` 
+2. On the command line prompt type `fastqc -o /workdir/netId/fastQC sample1.fastq.gz` 
 Once finished, repeat the same command for sample2. <br>
 
 3. The fastqc outputs are stored in the `/workdir/netId/fastQC` folder. Use filezilla to download the .html reports and view them in the browser on your computer. 

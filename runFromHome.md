@@ -12,6 +12,12 @@ Run the following command to export the STAR path:
 
 Remove the `../STAR` directory if it already exists by typing `rm -r ../STAR`. 
 
-Run the alignment using ` nohup bash star.sh & `
+Start the alignment using ` nohup bash star.sh & `
+
+You may exit terminal at this point and  disconnect the vpn. `STAR` will keep running on cbsulm08 in background. 
+
+You may repeat the diretions above to log in again and check on the `STAR` run or copying files locally using filezilla and uploading it to UCSC/IGV genome browser. 
+
+
 
 

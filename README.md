@@ -88,3 +88,10 @@ Type ` bash cutadapt.sh ` and hit return. <br>
 
 3. To execute the star script use the following syntax:<br>
 ` bash star.sh `
+
+4. Navigate to `STAR` folder. 
+
+5. Run multiqc using `multiqc -n star.multiqc.report .`
+
+
+

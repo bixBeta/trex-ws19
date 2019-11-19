@@ -5,7 +5,7 @@ Login using Cornell's user name and password.
 
 
 #### Run STAR
-Once logged in to the cbsulm08, navigate to the appropriate directory using `cd /workdir/netId/trimmed_fastqs`
+Once logged in to the cbsulm08, navigate to the appropriate directory using `cd /workdir/netId/trimmed_fastqs`<br>
 Run the following command to export the STAR path:
 `export PATH=/programs/STAR:$PATH` 
 

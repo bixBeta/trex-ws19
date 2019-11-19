@@ -1,6 +1,6 @@
 #### Cisco VPN
 
-For off-campus access to the cbsulm08 server, first connect to vpn using <a href="https://it.cornell.edu/cuvpn"> Cisco VPN </a> using cuvpn.cuvpn.cornell.edu. 
+For off-campus access to the cbsulm08 server, first connect to vpn using <a href="https://it.cornell.edu/cuvpn"> Cisco VPN </a> using `cuvpn.cuvpn.cornell.edu`. 
 Login using Cornell's user name and password.  
 
 

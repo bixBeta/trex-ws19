@@ -7,6 +7,9 @@ Login using Cornell's user name and password.
 #### Run STAR
 Once logged in to the cbsulm08 using putty/terminal, navigate to the appropriate directory using <br>  `cd /workdir/<netId>/trimmed_fastqs`<br>
 
+Check memory availablility with `htop`. If the usage is ≤ 300G, feel free to start the `STAR` run. 
+
+
 Run the following command to export the STAR path:
 `export PATH=/programs/STAR:$PATH` 
 

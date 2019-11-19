@@ -1,6 +1,6 @@
 #### Cisco VPN
 
-Connect to Cisco VPN using cuvpn.cuvpn.cornell.edu. 
+Connect to <a href="https://it.cornell.edu/cuvpn"> Cisco VPN </a> using cuvpn.cuvpn.cornell.edu. 
 Login using Cornell's user name and password.  
 
 

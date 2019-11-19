@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for i in *R1.fastq.gz
+for i in *.fastq.gz
          do 
 
          cutadapt -m 50 --nextseq-trim=20 \

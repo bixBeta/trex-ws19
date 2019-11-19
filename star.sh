@@ -17,3 +17,6 @@ for i in *_trimmed.fastq.gz
 
 	    done
 
+
+mkdir ../STAR
+mv *.bam *.tab *.out 

@@ -19,4 +19,4 @@ for i in *_trimmed.fastq.gz
 
 
 mkdir ../STAR
-mv *.bam *.tab *.out 
+mv *.bam *.tab *.out ../STAR

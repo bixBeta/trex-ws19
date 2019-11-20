@@ -25,10 +25,6 @@ dds <- DESeqDataSetFromMatrix(countData = counts,
                               colData = target,
                               design = ~ group)
 
-# treatments = unique(target$group) # Treatments of interest
-# dds$condition <- factor(colData(dds)$group,
-#                         levels = treatments)
-
 ## -------------------------------------------------------------------------------------------------------------------
 # Run DESeq
 dds <- DESeq(dds)

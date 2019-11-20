@@ -130,3 +130,7 @@ vsd.filtered.table = as.data.frame(assay(vsd.filtered))
 
 hmap.matrix = vsd.filtered.table[rownames(vsd.filtered.table) %in% hmap.query$genes ,]
 pheatmap(hmap.matrix, scale = "row")
+
+
+
+

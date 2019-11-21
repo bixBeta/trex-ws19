@@ -92,7 +92,9 @@ Type ` bash cutadapt.sh ` and hit return. <br>
 
 4. Navigate to `STAR` folder. 
 
-5. Run multiqc using `multiqc -n star.multiqc.report .`
+5. Run `pip install multiqc`
+
+6. Run multiqc using `multiqc -n star.multiqc.report .` 
 
 
 

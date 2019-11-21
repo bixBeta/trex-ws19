@@ -7,7 +7,7 @@ for i in *.fastq.gz
          -a AGATCGGAAGAGCACACGTCTGAACTCCAGTC \
          --match-read-wildcards \
          -o $(basename $i .fastq.gz)_trimmed.fastq.gz \
-         $i > $(basename $i .fastq.gz)_trimmed.out
+         $i > $(basename $i .fastq.gz)_trimmed.outStats
           
 done
 
